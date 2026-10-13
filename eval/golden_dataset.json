@@ -1,0 +1,43 @@
+[
+  {
+    "case_id": "eval_001_n8n_battlecard",
+    "query": "Our retail customer has teams building shadow automations in n8n. How do we position Google Cloud AI?",
+    "expected_competitor": "n8n",
+    "expected_tool": "fetch_incumbent_competitor_battlecard",
+    "must_contain_keywords": ["ADK", "Vertex AI Agent Engine", "coexist", "webhook"]
+  },
+  {
+    "case_id": "eval_002_glean_battlecard",
+    "query": "The account is evaluating Glean for internal knowledge search. What is our counter-strategy?",
+    "expected_competitor": "glean",
+    "expected_tool": "fetch_incumbent_competitor_battlecard",
+    "must_contain_keywords": ["Gemini Enterprise", "Vertex AI Search", "BigQuery"]
+  },
+  {
+    "case_id": "eval_003_anthropic_coexistence",
+    "query": "Developers love Anthropic Claude. How do we avoid a religious war and still win the platform?",
+    "expected_competitor": "anthropic",
+    "expected_tool": "fetch_incumbent_competitor_battlecard",
+    "must_contain_keywords": ["Vertex AI Model Garden", "Claude", "Gemini 2.5 Flash"]
+  },
+  {
+    "case_id": "eval_004_openai_positioning",
+    "query": "Leadership is asking how Vertex AI compares to OpenAI for retail e-commerce.",
+    "expected_competitor": "openai",
+    "expected_tool": "fetch_incumbent_competitor_battlecard",
+    "must_contain_keywords": ["BigQuery", "Zero-Egress", "Retail Neutrality"]
+  },
+  {
+    "case_id": "eval_005_devin_engineering_velocity",
+    "query": "Engineering leadership saw a Devin demo. How do we position Gemini Code Assist and ADK?",
+    "expected_competitor": "devin",
+    "expected_tool": "fetch_incumbent_competitor_battlecard",
+    "must_contain_keywords": ["Gemini Code Assist Enterprise", "Human-in-the-Loop", "ADK"]
+  },
+  {
+    "case_id": "eval_006_three_horizon_strategy",
+    "query": "Generate a 3-Horizon AI Win Strategy for a large home e-commerce retailer facing n8n, Glean, Anthropic, OpenAI, and Devin.",
+    "expected_tool": "generate_three_horizon_win_strategy",
+    "must_contain_keywords": ["Horizon 1", "Horizon 2", "Horizon 3", "Vertex AI"]
+  }
+]
